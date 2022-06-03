@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Register</title>
+    <!-- Boot CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <!--Local CSS-->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Boot JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+  </head>
+  <body class="text-white">
+    <div class="container-fluid pt-5">
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">Abeeujah</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#collapsibleNavbar"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">About Me</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="login.html">Login</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+    <div class="guyy">
+      <form action="/action_page.php">
+        <div class="row">
+          <div class="mb-3 col-lg-6 gee">
+            <label for="name" class="form-label">First Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="fme"
+              placeholder="first name"
+              name="fname"
+              required
+            />
+          </div>
+          <div class="mb-3 col-lg-6 gee">
+            <label for="name" class="form-label">Last Name:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="lme"
+              placeholder="last name"
+              name="lname"
+              required
+            />
+          </div>
+          <div class="mb-3 col-lg-6 gee">
+            <label for="tel" class="form-label">Telephone:</label>
+            <input
+              type="tel"
+              class="form-control"
+              id="tel"
+              placeholder="Enter your number"
+              name="nums"
+            />
+          </div>
+          <div class="col-lg-6 mb-3 genx">
+            <label for="gender" class="form-label">Gender:</label>
+            <select name="gender" id="gnd">
+              <option value="Male">Male</option>
+              <option value="saab">Female</option>
+              <option value="fiat">Rather not say</option>
+            </select>
+          </div>
+          <div class="mb-3 col-lg-6 gee">
+            <label for="country" class="form-label">Country:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="cty"
+              placeholder="country"
+              name="country"
+              required
+            />
+          </div>
+          <div class="mb-3 col-lg-6 gee">
+            <label for="state" class="form-label">State/Province:</label>
+            <input
+              type="text"
+              class="form-control"
+              id="prv"
+              placeholder="state/province"
+              name="state"
+              required
+            />
+          </div>
+          <div class="mb-3 mt-3 emzy">
+            <label for="email" class="form-label">Email:</label>
+            <input
+              type="email"
+              class="form-control"
+              id="email"
+              placeholder="Enter email"
+              name="email"
+              required
+            />
+          </div>
+          <div class="mb-3 col-lg-6 gee">
+            <label for="pwd" class="form-label">Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Enter password"
+              name="pswd"
+              required
+            />
+          </div>
+          <div class="mb-3 col-lg-6 gee">
+            <label for="pwd" class="form-label">Confirm Password:</label>
+            <input
+              type="password"
+              class="form-control"
+              id="pwd"
+              placeholder="Confirm password"
+              name="pswd"
+              required
+            />
+          </div>
+        </div>
+
+        <div class="burt">
+            <button type="submit" class="btn btn-dark btn-lg burt">Sign Up</button>
+        </div>
+        
+      </form>
+    </div>
+  </body>
+  <footer class="pt-5 text-center">
+    <div class="footer">
+      <p>©️Sign Up page</p>
+    </div>
+  </footer>
+</html>
